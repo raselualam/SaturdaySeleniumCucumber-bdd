@@ -13,10 +13,10 @@ public class NewtoursRegisterPage extends BaseClass{
 	}
 
 	@FindBy(xpath="//input[@name='firstName']")
-    public WebElement txtfirstName;
+    	public WebElement txtfirstName;
 
-    @FindBy(xpath="//input[@name='address1']")
-    public WebElement txtaddress1;
+    	@FindBy(xpath="//input[@name='address1']")
+    	public WebElement txtaddress1;
 	
 	public void fillContactInformation(){
 		txtfirstName.sendKeys("Rasel");
