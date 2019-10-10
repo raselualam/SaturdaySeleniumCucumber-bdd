@@ -16,10 +16,10 @@ public class NewtoursHomePage extends BaseClass{
 	}
 
 	@FindBy(xpath="//a[contains(text(),'REGISTER')]")
-    public WebElement linkRegister;
+    	public WebElement linkRegister;
 
-    @FindBy(xpath="//input[@name='userName']")
-    public WebElement txtUserName;
+   	@FindBy(xpath="//input[@name='userName']")
+    	public WebElement txtUserName;
 
 	public void loadNewtours(){
     	driver.get("http://newtours.demoaut.com/");
