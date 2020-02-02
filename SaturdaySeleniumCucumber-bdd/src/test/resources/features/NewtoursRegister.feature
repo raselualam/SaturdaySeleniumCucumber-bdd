@@ -1,4 +1,4 @@
-@Newtour @Regression 
+@newtour @regression 
 Feature: Users ability to create account 
 
 Scenario Outline: User should able to create account using Register 
